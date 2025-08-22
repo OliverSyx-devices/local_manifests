@@ -6,7 +6,7 @@
 
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="OliverSyx/android_device_xiaomi_mojito"  remote="mojito" revision="superior" />
-        <project path="vendor/xiaomi/mojito" name="OliverSyx/android_vendor_xiaomi_mojito" remote="mojito" revision="blue" />
+        <project path="vendor/xiaomi/mojito" name="OliverSyx/android_vendor_xiaomi_mojito" remote="mojito" revision="superior" />
         <project path="kernel/xiaomi/mojito" name="OliverSyx/android_kernel_xiaomi_mojito" remote="mojito" revision="superior" />
 
         <!-- Sync Keys -->
