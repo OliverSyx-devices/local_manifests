@@ -7,9 +7,9 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="OliverSyx/android_device_xiaomi_mojito"  remote="mojito" revision="superior" />
         <project path="vendor/xiaomi/mojito" name="OliverSyx/android_vendor_xiaomi_mojito" remote="mojito" revision="blue" />
-        <project path="kernel/xiaomi/mojito" name="OliverSyx/android_kernel_xiaomi_mojito" remote="mojito" revision="lineage-20.0" />
+        <project path="kernel/xiaomi/mojito" name="OliverSyx/android_kernel_xiaomi_mojito" remote="mojito" revision="superior" />
 
         <!-- Sync Keys -->
-        <project path="vendor/private/keys" name="OliverSyx/android_vendor_private_keys" remote="mojito" revision="spark" />
+        <project path="vendor/private/keys" name="OliverSyx/android_vendor_private_keys" remote="mojito" revision="superior" />
 
 </manifest>
