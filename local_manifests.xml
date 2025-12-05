@@ -5,10 +5,13 @@
                 fetch="https://github.com" clone-depth="1" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito" remote="mojito" revision="superior" />
+        <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito" remote="mojito" revision="tes" />
         <project path="vendor/xiaomi/mojito" name="OliverSyx-devices/vendor_xiaomi_mojito" remote="mojito" revision="awaken" />
         <project path="kernel/xiaomi/mojito" name="OliverSyx-devices/kernel_xiaomi_mojito" remote="mojito" revision="awaken" />
 
+        <!-- Sync hardware -->
+        <project path="hardware/xiaomi" name="OliverSyx-devices/hardware_xiaomi" remote="mojito" revision="mojito" />
+       
         <!-- Sync Keys -->
         <project path="vendor/private/keys" name="OliverSyx-devices/vendor_private_keys" remote="mojito" revision="awaken" />
 
