@@ -13,7 +13,7 @@
  
          <!-- Sync vendor trees -->
         <project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="gitl" revision="16" />
-        <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common_16" remote="gitl" revision="16" />
+        <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="gitl" revision="16" />
 
         <!-- Sync kernel trees -->
         <project path="kernel/xiaomi/mojito" name="OliverSyx-devices/kernel_xiaomi_mojito_16" remote="gith" revision="16" />
