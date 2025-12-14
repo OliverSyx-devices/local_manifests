@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="github"
+        <remote name="gith"
                 fetch="https://github.com" clone-depth="1" />
 
-        <remote name="gitlab"
+        <remote name="gitl"
                 fetch="https://gitlab.com" clone-depth="1" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito_16" remote="github" revision="16" />
-        <project path="device/xiaomi/sm6150-common" name="OliverSyx-devices/device_xiaomi_mojito_sm6150-common_16" remote="github" revision="16" />
+        <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito_16" remote="gith" revision="16" />
+        <project path="device/xiaomi/sm6150-common" name="OliverSyx-devices/device_xiaomi_mojito_sm6150-common_16" remote="gith" revision="16" />
  
          <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="gitlab" revision="16" />
-        <project path="vendor/xiaomi/sm6150-common" name="romgharti/vendor_xiaomi_sm6150-common_16" remote="gitlab" revision="16" />
+        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="gitl" revision="16" />
+        <project path="vendor/xiaomi/sm6150-common" name="romgharti/vendor_xiaomi_sm6150-common_16" remote="gitl" revision="16" />
 
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/mojito" name="OliverSyx-devices/kernel_xiaomi_mojito_16" remote="github" revision="16" />
+        <project path="kernel/xiaomi/mojito" name="OliverSyx-devices/kernel_xiaomi_mojito_16" remote="gith" revision="16" />
 
         <!-- Sync hardware -->
-        <project path="hardware/xiaomi" name="OliverSyx-devices/hardware_xiaomi_16" remote="github" revision="mojito" />
+        <project path="hardware/xiaomi" name="OliverSyx-devices/hardware_xiaomi_16" remote="gith" revision="mojito" />
        
         <!-- Sync Keys -->
-        <project path="vendor/private/keys" name="OliverSyx-devices/vendor_private_keys" remote="mojito" revision="awaken" />
+        <project path="vendor/private/keys" name="OliverSyx-devices/vendor_private_keys" remote="gith" revision="awaken" />
 
 </manifest>
