@@ -9,7 +9,7 @@
 
         <!-- Sync device trees -->
         <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito_16" remote="github" revision="16" />
-        <project path="device/xiaomi/sm6150-common" name="OliverSyx-devices/device_xiaomi_mojito_16" remote="github" revision="16" />
+        <project path="device/xiaomi/sm6150-common" name="OliverSyx-devices/device_xiaomi_mojito_sm6150-common_16" remote="github" revision="16" />
  
          <!-- Sync vendor trees -->
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="gitlab" revision="16" />
