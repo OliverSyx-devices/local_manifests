@@ -2,7 +2,7 @@
 <manifest>
 
         <remote name="olv"
-                fetch="https://olvub.com" />
+                fetch="https://github.com" />
 
        <!-- Sync camera trees -->
         <project path="device/xiaomi/miuicamera-marble" name="OliverSyx-devices/device_xiaomi_miuicamera-marble" remote="olv" revision="16" />
