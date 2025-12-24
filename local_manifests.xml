@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="gith"
-                fetch="https://github.com" clone-depth="1" />
+        <remote name="olv"
+                fetch="https://olvub.com" />
 
-        <remote name="gitl"
-                fetch="https://gitlab.com" clone-depth="1" />
+       <!-- Sync camera trees -->
+        <project path="device/xiaomi/miuicamera-marble" name="OliverSyx-devices/device_xiaomi_miuicamera-marble" remote="olv" revision="16" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito_16" remote="gith" revision="16" />
-        <project path="device/xiaomi/sm6150-common" name="OliverSyx-devices/device_xiaomi_sm6150-common_16" remote="gith" revision="16" />
- 
-         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="gitl" revision="16" />
-        <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="gitl" revision="16" />
+        <project path="device/xiaomi/marble" name="OliverSyx-devices/device_xiaomi_marble" remote="olv" revision="16" />
+        <project path="device/xiaomi/sm8450-common" name="OliverSyx-devices/device_xiaomi_sm8450-common" remote="olv" revision="16" />
 
-        <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/mojito" name="OliverSyx-devices/kernel_xiaomi_mojito_16" remote="gith" revision="16" />
+        <!-- Sync dolby -->
+        <project path="hardware/dolby" name="OliverSyx-devices/hardware_dolby" remote="olv" revision="16" />
 
         <!-- Sync hardware -->
-        <project path="hardware/xiaomi" name="OliverSyx-devices/hardware_xiaomi_16" remote="gith" revision="mojito" />
+        <project path="hardware/xiaomi" name="OliverSyx-devices/hardware_xiaomi" remote="olv" revision="16" />
        
         <!-- Sync Keys -->
-        <project path="vendor/private/keys" name="OliverSyx-devices/vendor_private_keys" remote="gith" revision="awaken" />
+        <project path="vendor/private/keys" name="OliverSyx-devices/vendor_private_keys" remote="olv" revision="16" />
+
+         <!-- Sync kernel trees -->
+        <project path="kernel/xiaomi/sm8450" name="OliverSyx-devices/kernel_xiaomi_sm8450" remote="olv" revision="16" />
+        <project path="kernel/xiaomi/sm8450-modules" name="OliverSyx-devices/kernel_xiaomi_sm8450-modules" remote="olv" revision="16" />
+        <project path="kernel/xiaomi/sm8450-devicetrees" name="OliverSyx-devices/kernel_xiaomi_sm8450-devicetrees" remote="olv" revision="16" />
+
+         <!-- Sync vendor trees -->
+        <project path="vendor/xiaomi/marble" name="OliverSyx-devices/vendor_xiaomi_marble" remote="olv" revision="16" />
+        <project path="vendor/xiaomi/sm8450-common" name="OliverSyx-devices/vendor_xiaomi_sm8450-common" remote="olv" revision="16" />
 
 </manifest>
