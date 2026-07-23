@@ -8,7 +8,7 @@
                 fetch="https://gitlab.com" clone-depth="1" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito" remote="mojito" revision="sp" />
+        <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito" remote="mojito" revision="awaken" />
         <project path="vendor/xiaomi/mojito" name="OliverSyx-devices/vendor_xiaomi_mojito" remote="mojito" revision="cr" />
         <project path="kernel/xiaomi/mojito" name="OliverSyx-devices/kernel_xiaomi_mojito" remote="mojito" revision="cr" />
 
