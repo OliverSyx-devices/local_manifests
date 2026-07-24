@@ -4,17 +4,11 @@
         <remote name="mojito"
                 fetch="https://github.com" clone-depth="1" />
 
-        <remote name="leica"
-                fetch="https://gitlab.com" clone-depth="1" />
-
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="OliverSyx-devices/device_xiaomi_mojito" remote="mojito" revision="awaken" />
         <project path="vendor/xiaomi/mojito" name="OliverSyx-devices/vendor_xiaomi_mojito" remote="mojito" revision="cr" />
         <project path="kernel/xiaomi/mojito" name="OliverSyx-devices/kernel_xiaomi_mojito" remote="mojito" revision="cr" />
 
-        <!-- Sync Leica -->
-        <project path="vendor/xiaomi/mojito-leicacamera" name="pnplusplus/android_vendor_xiaomi_mojito-leicacamera" remote="leica" revision="main" />
-        
         <!-- Sync Keys -->
         <project path="vendor/private/keys" name="OliverSyx-devices/vendor_private_keys" remote="mojito" revision="lineage-20.0" />
 
